@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hw6"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+cowpy = "^1.1.5"
+pygments = "^2.15.1"
+pytz = "^2023.3"
+
+
+[tool.poetry.group.dev-dependency.dependencies]
+safety = "^2.3.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
